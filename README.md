@@ -1,0 +1,1 @@
+# Analysing-the-Sentiment-of-Twitter-Data-on-the-Bitcoin-by-LSTM
