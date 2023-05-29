@@ -39,9 +39,6 @@ Testing with sentiment 153.31
 The Root Mean Square Error (RMSE) had been selected as a measurement method to survey the prediction result of the project. Compared to Mean Absolute Error (MAE), the RMSE metric assesses the model's prediction power in continuous value, which shows a better performance than MSE. Furthermore, the unit of RMSE is matched with the unit of the data variable that is expected to predict, which means the output is showing the difference between the prediction value and the actual value. The RMSE metric is measuring the difference between two values, which means that if the RMSE value is smaller and the model performance is better. Based on Table 3, the smaller result is the testing set without sentiment data. Also, the performance of both the training set and testing set with sentiment shows worse than the dataset without sentiment. By comparing case by case, the value of the training set with sentiment is 213.07 and the value of the training set without sentiment is 202.52, the error between them is 10.55. On the other hand, the value of the testing set with sentiment is 178.72 and the value of the testing set without sentiment is 153.31, the error between them is 25.41. 
 
 As the average closing price value is over 20000 during the period, the errors between the 2 models are extremely small. The graphs in Figure 14 and Figure 15 plots the actual value as blue line, training set predict value as green, and testing set predict value as red. The figures are showing that the shape of the prediction between the 2 models is basically the same. However, the sentiment data that was previous collected is just creating a "white noise" to influencing the prediction model without any benefit.
-![image](https://github.com/jasper1005/Analysing-the-Sentiment-of-Twitter-Data-on-the-Bitcoin-by-LSTM/assets/69462492/6390de77-e617-4f5b-bb7f-1fc433ff5cb0)
-
-
 
 # 5 Finding
 
