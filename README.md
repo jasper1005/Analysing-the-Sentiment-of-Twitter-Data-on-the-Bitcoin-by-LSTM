@@ -23,9 +23,11 @@ For feeding the data into the model of this project, there are two primary data 
 The Price of closing Bitcoin price and sentiment data had been captured in the Figure. The minutely Twitter sentiment data and the matched bitcoin price had been plotted in the graph. the figure also shows some of the peaks of the emotional score correlated to the previous hour of the closing price. Furthermore, due to the same volume of tweet data every hour, the number of tweets does not affect the sentiment calculation. Finally, even though the graph shows the correlation of the peaks between sentiment data and the closing Bitcoin trading price, the sentiment data is relatively more exaggerated, which means it is oversensitive.
 
  <img width="524" alt="image" src="https://github.com/jasper1005/Analysing-the-Sentiment-of-Twitter-Data-on-the-Bitcoin-by-LSTM/assets/69462492/467ce2a7-bb02-4d0c-8d70-674d013b5b44">
+ 
 Graph between actual and predict value with sentiment 
 
 <img width="524" alt="image" src="https://github.com/jasper1005/Analysing-the-Sentiment-of-Twitter-Data-on-the-Bitcoin-by-LSTM/assets/69462492/05c9acaa-56ae-4267-bb62-fd488c5a57b7">
+
 Graph between actual and predict value without sentiment 
 
 (In RMSE)
